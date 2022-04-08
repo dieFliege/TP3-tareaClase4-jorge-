@@ -22,5 +22,17 @@
         <argument
             android:name="userNameValue"
             app:argType="string" />
+        <action
+            android:id="@+id/action_fragmentPlants_to_fragmentPlantDetails"
+            app:destination="@id/fragmentPlantDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPlantDetails"
+        android:name="com.ort.plantsapp.fragments.FragmentPlantDetails"
+        android:label="fragment_plant_details_fragment"
+        tools:layout="@layout/fragment_plant_details_fragment" >
+        <argument
+            android:name="plantPosition"
+            app:argType="integer" />
     </fragment>
 </navigation>

@@ -2,6 +2,6 @@ package com.ort.plantsapp.viewmodels
 
 import androidx.lifecycle.ViewModel
 
-class FragmentPlantViewModel : ViewModel() {
+class FragmentPlantDetailsViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }
